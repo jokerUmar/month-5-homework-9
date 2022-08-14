@@ -1,0 +1,112 @@
+.home {
+    width: 50%;
+    border-right: 1px solid #D8D8D8;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(216, 216, 216, 1);
+}
+
+p {
+    color: black;
+}
+
+.your-text {
+    color: #828282;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.your-boxf {
+    display: flex;
+    align-items: center;
+}
+
+.your-box-imgf {
+    width: 180px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+.your-box-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.your-box-img button {
+    margin-top: 30px;
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+    border-radius: 120px;
+    padding: 15px 30px 15px 30px;
+    border: none;
+    background: #1DA1F2;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.08);
+    margin-right: 20px;
+}
+
+.your-box-img button:active{
+    opacity: 0.4;
+}
+
+
+
+.other-profile{
+    padding-top: 30px;
+    padding-bottom: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 800px;
+}
+
+
+.other-box{
+    display: flex;
+    margin-left: 25px;
+    align-items: flex-start;
+}
+
+.other-box img{
+    margin-right: 15px;
+}
+
+
+.other-name{
+    font-weight: 700;
+    font-size: 20px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    line-height: 26.6px;
+}
+
+.other-nickname{
+  font-size: 18px;
+  line-height: 23.94px;
+  opacity: 0.6; 
+}
+
+.other-text{
+    font-size: 18px;
+    line-height: 23.94px;
+    width: 520px;   
+    margin-bottom: -20px;
+}
+.cook{
+    margin-left: -90px;
+    margin-top: 40px;
+}
+
+.other-img_box{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}

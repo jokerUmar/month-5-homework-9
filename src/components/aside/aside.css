@@ -1,0 +1,66 @@
+
+.aside {
+    padding-top: 30px;
+    width: 22%;
+    padding-left: 45px;
+    border-right: 1px solid rgba(216, 216, 216, 1);
+    box-sizing: border-box;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+
+li{
+    list-style: none;
+}
+
+.aside-list {
+    margin-top: 50px;
+}
+
+.aside-list li {
+    align-items: center;
+    display: flex;
+    margin-top: 34px;
+}
+
+.aside-list li img {
+    margin-right: 22px;
+}
+
+.aside-btn {
+    margin-top: 40px;
+    padding: 15px 90px;
+    background: #1D9BF0;
+    border-radius: 27.5px;
+    border: 1px solid #1D9BF0   ;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: -30px;
+
+}
+
+.active-link{
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+    color: #1D9BF0  ;
+}
+
+.not-active-link{
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+
+.log-btn{
+    background-color: #bb2124;
+    border: #bb2124 solid 1px ;
+}
