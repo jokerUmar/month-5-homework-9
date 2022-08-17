@@ -9,6 +9,12 @@ import book from "../../assets/images/book.svg"
 
 function Aside({setAuth , useAuth}) {
 
+    const params = {
+        userName : false , 
+        password:false
+      }
+    
+
 const out = useNavigate()
 
 return (
@@ -35,13 +41,14 @@ return (
         </ul>
 
     <button className='aside-btn'>Tweet</button>
-    <button className='log-btn aside-btn' onClick={()=>{
+    <button className='aside-btn log-btn' onClick={()=>{
         return(
             setAuth(false),
-            useAuth(),
+            useAuth(params),
             out('/')
         )
-    }}>logout</button>
+    }}>log out</button>
+
 
     </div>
 </div>
